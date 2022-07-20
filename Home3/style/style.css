@@ -6,10 +6,9 @@ body {
     border-style: ridge;
 }
 header, main, footer {
-    background-color: beige;
+    background-color: azure;
 }
 nav {
-    margin-left: 0%;
     text-align: center;
 }
 li {
