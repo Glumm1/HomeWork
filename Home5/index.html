@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Forms</title>
+      <link rel="stylesheet" href="scc/index.css">
+      <!--  I must connect fonts here -->
+    </head>
+    <body>
+        <main>
+            <section class="container">
+                <h1>Create an Account</h1>
+                <form method="post" action="url">
+                    <div class="about">
+                        <div class="form_item">
+                            <label for="first_name" class="f_name">First name</label>
+                            <input type="text" name="first_name" class="f_name">
+                        </div>
+                        <div class="form_item">
+                            <label for="last_name" class="l_name">Last name</label>
+                            <input type="text" name="last_name" class="l_name">
+                         </div>
+                    </div>                 
+                    <div class="form_mail">
+                        <label for="mail" class="mailto">E-mail</label>
+                        <input type="email" name="mail">
+                        <p class="mail-explane">We'll never share your email with anyone else.</p>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="gender" checked>
+                        <lable for="gender" class="gender">Male</lable>
+                        <input type="radio" name="gender">
+                        <lable for="gender">Female</lable>
+                    </div>
+                    <div class="about">
+                        <div class="form_item">
+                            <label for="country" class="country">Country</label>
+                            <select name="country" class="country">
+                                <option value="" disabled selected>Select</option>
+                                <option value="pl">Poland</option>
+                                <option value="ukr">Ukraine</option>
+                                <option value="gb">Great Britain</option>
+                            </select>
+                        </div>
+                        <div class="form_item">
+                            <label for="city" class="city">City</label>
+                            <input type="text" name="city" class="city">
+                        </div> 
+                    </div>
+                    <div class="border">
+                        <button type="submit" class="button">Sign up</button>
+                        <div class="text">
+                            <p>By clicking the 'Sign Up' button, you confirm that you accept our
+                         <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+                        </div>
+                    </div>
+                </form>
+                <div >
+                    <span class="info">Have an account?</span><a class="login" href="#">Log In</a>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
