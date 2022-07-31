@@ -1,0 +1,124 @@
+.container {
+
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  background: #3B3F45;
+}
+.container header {
+  height: 82px;
+  background: #4A4F56;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FF8984;
+} 
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 19px;
+  text-align: center;
+}
+h2 {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
+}
+.checkbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+label {
+  width: 534px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  position: relative;
+}
+.checkbox__list:nth-child(2n){
+  background: #7A7593;
+}
+.checkbox__list:nth-child(2n+1){
+  background: #88839E;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 47px;
+}
+.explain::before{
+  content: '(';
+}
+.explain::after{
+  content: ')';
+}
+.explain {
+  font-weight: 400;
+  font-size: 11px;
+}
+label:hover {
+  border-top: 3px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+}
+.checkbox__list:hover {
+ background-color:  #625E77;
+}
+.checkbox__list:active {
+  background-color: #FF8984;
+}
+form input {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  appearance: none;
+}
+form label .indicator {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background-color: #fff;
+  pointer-events: none;
+  user-select: none;
+  margin-left: 12px;
+}
+form input[type=checkbox]:checked ~ .indicator{
+  color: #FFFFFF;
+  background: #ffffff;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMyAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIgNEw1LjUgNy41TDExIDEiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMyIvPgo8L3N2Zz4K);
+  background-repeat: no-repeat;
+  background-position: 3px 4px;
+
+}
+form input[type=checkbox]:checked ~ p{
+  color: #9B96AC;
+  text-decoration: line-through;
+}
+.appetit{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 534px;
+  height: 45px;
+  background: #4A4F56;
+}
+.appetir__wish{
+  font-weight: 400;
+  font-size: 18px;
+  color: #FF8984;
+}
+.appetir__wish::after{
+  content: ':)';
+}
+
+
+ 
+
